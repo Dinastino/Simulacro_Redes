@@ -94,3 +94,32 @@ En el modelo TCP/IP, la capa de transporte tiene dos protocolos principales:
   - Streaming de video
   - VoIP (llamadas por Internet)
   - Juegos en línea
+
+## Ejrcicio 3: TCP vs. UDP
+
+TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son protocolos de transporte en la capa 4 del modelo OSI. A continuación, se comparan en distintos aspectos clave:
+
+#### 1. Orientación a conexión
+- **TCP**: Es un protocolo orientado a conexión, lo que significa que antes de transmitir datos, establece una conexión entre el emisor y el receptor mediante un proceso llamado *three-way handshake* (SYN, SYN-ACK, ACK).
+- **UDP**: Es un protocolo sin conexión (*connectionless*), lo que implica que no requiere establecer una conexión previa antes de enviar los datos.
+
+#### 2. Fiabilidad y control de errores
+- **TCP**: Proporciona fiabilidad mediante la verificación de errores, control de flujo y retransmisión de paquetes perdidos. También garantiza que los datos lleguen en el orden correcto.
+- **UDP**: No ofrece mecanismos de control de errores ni de retransmisión. Si un paquete se pierde o llega dañado, no hay reenvío automático.
+
+#### 3. Velocidad y orden de entrega
+- **TCP**: Es más lento debido a sus mecanismos de control, como la verificación de errores y la gestión del flujo de datos. Sin embargo, garantiza que los datos lleguen en el orden correcto.
+- **UDP**: Es más rápido porque no tiene sobrecarga de control de flujo ni confirmación de entrega. Sin embargo, los paquetes pueden llegar desordenados o perderse.
+
+#### 4. Ejemplos de aplicaciones
+- **TCP**: Se usa en aplicaciones que requieren fiabilidad y entrega ordenada de datos, como:
+  - Navegación web (HTTP/HTTPS)
+  - Transferencia de archivos (FTP)
+  - Correo electrónico (SMTP, IMAP, POP3)
+  - Protocolos de control remoto (SSH, Telnet)
+
+- **UDP**: Se emplea en aplicaciones donde la velocidad es más importante que la fiabilidad, como:
+  - Streaming de video y audio (Netflix, YouTube, VoIP)
+  - Juegos en línea
+  - Servicios de DNS (Domain Name System)
+  - Protocolo de transmisión de video en tiempo real (RTP)
