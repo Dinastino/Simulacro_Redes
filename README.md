@@ -1,5 +1,5 @@
-Pages: https://dinastino.github.io/Simulacro_Redes/
-Respository: https://github.com/Dinastino/Simulacro_Redes.git
+Pages: https://dinastino.github.io/Simulacro_Redes/  
+Respositorio: https://github.com/Dinastino/Simulacro_Redes.git
 
 # Simulacro_Redes
 
