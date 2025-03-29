@@ -1,4 +1,4 @@
-Pages: https://dinastino.github.io/Simulacro_Redes/  
+Pages: https://dinastino.github.io/Simulacro_Redes/   
 Respositorio: https://github.com/Dinastino/Simulacro_Redes.git
 
 # Simulacro_Redes
@@ -123,4 +123,28 @@ TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son protocolo
   - Juegos en línea
   - Servicios de DNS (Domain Name System)
   - Protocolo de transmisión de video en tiempo real (RTP)
+
+## Ejercicio 4: Protocolo para Transferencia de Archivos
+### a) ¿Qué protocolo de la capa de aplicación se utiliza tradicionalmente para la transferencia de archivos en redes TCP/IP?
+
+El protocolo de la capa de aplicación utilizado tradicionalmente para la transferencia de archivos en redes TCP/IP es **FTP (File Transfer Protocol)**. Este protocolo permite la transferencia de archivos entre un cliente y un servidor, utilizando los puertos 20 y 21 para la comunicación.
+
+### b) Menciona al menos dos alternativas a este protocolo, resaltando sus diferencias principales en cuanto a seguridad o funcionalidad.
+
+1. **SFTP (Secure File Transfer Protocol)**  
+   - A diferencia de FTP, SFTP utiliza el protocolo **SSH (Secure Shell)** para cifrar la transferencia de archivos, proporcionando mayor seguridad.  
+   - Opera sobre un solo puerto (por defecto, el puerto 22), lo que facilita la configuración en cortafuegos y NAT.  
+   - Proporciona autenticación segura y cifrado de datos, evitando ataques de tipo "man-in-the-middle".
+
+2. **HTTP/HTTPS (HyperText Transfer Protocol / Secure)**  
+   - Aunque no está diseñado exclusivamente para la transferencia de archivos, **HTTP** y **HTTPS** se utilizan ampliamente para descargar archivos desde servidores web.  
+   - **HTTPS** añade seguridad mediante **TLS/SSL**, cifrando los datos transmitidos.  
+   - Es ideal para transferencias en entornos donde los navegadores web son la principal interfaz de acceso a archivos.
+
+
+
+
+
+
+
 
